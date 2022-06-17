@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+/* void is used for returning 0 value. */
+void area(),sum();
+int l, b;
+int main()
+{
+    printf("enter the length and breadth \n");
+    scanf("%d%d", &l, &b);
+    area(),sum();
+    return 0;
+}
+// now the calculation begins
+void area()
+{
+    int a;
+    a = l * b;
+    printf("Area=%d",a);
+}
+void sum()
+{
+    int a;
+    b = l + b;
+    printf("Sum=%d",b);
+}
